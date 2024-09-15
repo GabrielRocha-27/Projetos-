@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universidade UGR</title>
+    <link rel="stylesheet" href="contatos.css">
+</head>
+
+
+<body>
+    <header> 
+        <div class="logo">
+          <img src="img/logo.png" alt="logo">
+        </div>
+
+        <div class="titulo">
+            <h1><a href="index.html"> Universidade Gabriel Rocha</a></h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="quemSomos.html">Quem somos</a></li>
+                <li><a href="contatos.html">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="main-content">
+        <div class="image-section">
+            <img src="img/imagemcontatos.png" alt="Conceito de estudo">
+        </div>
+        <br>
+        <br>
+        <h3>Entre em contato</h3>
+        <p>Tem alguma dúvida ou quer saber mais sobre nossos cursos e serviços? Nossa equipe está à disposição para esclarecer suas perguntas e ajudá-lo a encontrar a melhor opção para sua jornada acadêmica. Seja para informações sobre processos seletivos, programas de intercâmbio, ou qualquer outra questão, estamos prontos para atender você.</p>
+        <p>Não hesite em entrar em contato!</p>
+        <hr class="linha-divisoria">
+
+    </section>
+
+    <form action="enviar-contato.php" method="post" class="enviar-contato">
+        <section>
+             <label for="email">Seu e-mail:</label>
+             <input type="email" id="email" name="email" required>
+         </section>
+ 
+         <section>
+             <label for="assunto">Assunto:</label>
+             <input type="assunto" id="assunto" name="email" required>
+         </section>
+ 
+         <section>
+             <label for="descrição">Descrição:</label>
+             <input type="descrição" id="descrição" name="descrição" required>  
+         </section>
+ 
+         <section>
+             <button type="submit">Enviar</button>
+         </section>
+ 
+     </form>
+     <br>
+     <br>
+     <br>
+
+
+
+<footer>
+    <p>&copy; Universidade Gabriel Rocha. Todos os direitos reservados</p>
+</footer>
+</body>
+</html>
